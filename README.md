@@ -19,4 +19,8 @@ module.exports = {
 ```
 
 ## Run it
-`npm start`
+```
+git clone https://github.com/LiljebergXYZ/server-wrapper.git
+npm install
+npm start
+```
