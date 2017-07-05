@@ -1,18 +1,3 @@
-<style>
-html, body {
-	height: 100%;
-}
-textarea {
-	width: 100%;
-	height: 50%;
-}
-#cmd {
-	width: 90%;
-}
-#cmdBtn {
-	width: 9%;
-}
-</style>
 <h1>The Wrapper: Home</h1>
 
 <ul id="messages"></ul>
@@ -46,7 +31,7 @@ textarea {
 		var date = new Date();
 		return '[' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + ']';
 	}
-	
+
 	function createLi(txt) {
 		var li = document.createElement('li');
 		var text = document.createTextNode(txt);
